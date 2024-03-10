@@ -1,0 +1,62 @@
+/* Yleiset Tyylit */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Päävalikko */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+  }
+  
+  nav ul li a:hover {
+    color: red; /* Pseudoluokkaefekti hoverille */
+  }
+  
+  /* Sivupalkin Navigointi */
+  .sidebar {
+    float: left;
+    width: 20%; /* Säädä layoutisi mukaan */
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #555;
+  }
+  
+  /* Sisältöosio */
+  .content {
+    float: left;
+    width: 75%; /* Säädä layoutisi mukaan */
+    padding-left: 20px; /* Varmistaa, että sisältö ei ole liian lähellä sivupalkkia */
+  }
+  
+  .content section {
+    margin: 20px 0;
+  }
+  
+  .content p {
+    padding: 10px 0; /* Lisää tekstielementtien ympärille tyhjää */
+  }
