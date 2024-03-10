@@ -12,6 +12,9 @@ body{
 
     background-color: bisque;
 }
+header a:hover {
+    color: red;
+}
 h1 {
 
     border-style: dotted;
